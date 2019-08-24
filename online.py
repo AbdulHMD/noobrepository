@@ -2,7 +2,7 @@ import vk_api
 import time
 from time import gmtime, strftime
 
-token = "a498d887f797a852d9b7e2fcd928d0124d5c99a38a41e459bafc34793d37ca83712c5ba89783a187d0584" # можно получить на vkhost.github.io
+token = "" # можно получить на vkhost.github.io
 
 vk_session = vk_api.VkApi(token=token)
 vk = vk_session.get_api()
