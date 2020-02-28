@@ -3,7 +3,7 @@ from vk_api.bot_longpoll import VkBotEventType, VkBotLongPoll
 import json
 import time
 
-vk = vk_api.VkApi(token='5ffd8755d510036751d5b04dda9392039a488fa48b18f6170c6de394e87b10f26a98a1025bdf266f6fd6b')
+vk = vk_api.VkApi(token='')
 
 vk._auth_token()
 
