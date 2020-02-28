@@ -13,7 +13,7 @@ lastname = user[0]["last_name"]
 
 while True:
 	try:
-		print(strftime("%H:%M") + f" - Установлен статус Online для пользователя {name} {lastname}.")
+		print(strftime("%H:%M") + f" - Установлен онлайн, для пользователя {name} {lastname}.")
 		vk.account.setOnline()
 		time.sleep(300)
 
